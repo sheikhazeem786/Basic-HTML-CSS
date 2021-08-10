@@ -1,0 +1,52 @@
+body {
+    margin-top: 45px;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-family: monospace;
+    /* background-color: rgb(112, 104, 104); */
+}
+
+a {
+    text-decoration: none;
+}
+
+.whole {
+    background-color: rgb(229, 226, 226);
+    border-radius: 10px;
+    padding: 35px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.thumbnail-center {
+    border-radius: 100%;
+}
+
+.thumbnail-border {
+    padding: 10px;
+    border: grey solid 1px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.well-known-border {
+    padding: 9px;
+    background: #DDD;
+}
+
+.footer {
+    padding-top: 40px;
+}
+
+#aristotle {
+    font-size: 50px;
+    margin-bottom: -5px;
+}
+
+.textsize {
+    font-size: 15px;
+}
