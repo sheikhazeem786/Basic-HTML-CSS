@@ -23,3 +23,18 @@ button:hover {
     transform: translateY(-0.25em);
     cursor: pointer;
 }
+
+section {
+    width: 80%;
+    height: 800px;
+    background: no-repeat url("backgroung.jpg") center/cover;
+    /* background-size: cover;
+    background-position: bottom; */
+    /* background-repeat: no-repeat; */
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 100px;
+    color: white;
+}
