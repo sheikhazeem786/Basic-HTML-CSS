@@ -12,7 +12,10 @@
 
 <body>
     <div class="container">
-        <h1>Bootstrap Basics</h1>
+        <h1 class="display-1 text-center">Bootstrap Playground</h1>
+        <h2 class="display-4">Buttons
+            <span class="badge rounded-pill bg-primary">8</span>
+        </h2>
         <button type="button" class="btn btn-primary">Primary</button>
         <button type="button" class="btn btn-success">Success</button>
         <button type="button" class="btn btn-link">Link</button>
@@ -21,8 +24,39 @@
         <button type="button" class="btn btn-outline-dark btn-lg">Dark Outline</button>
         <button type="button" class="btn btn-light btn-sm">SM Button</button>
         <button type="button" class="btn btn-success" disabled>Success Disabled</button>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, unde tempore sequi ipsum consequatur, dolorem voluptatem optio ex necessitatibus nisi laudantium tempora nobis ducimus itaque! Qui ipsam provident pariatur cupiditate? Adipisci
+        <button class="btn btn-primary">Updates <span class="badge bg-light text-dark">9</span></button>
+        <button class="btn btn-primary position-relative">Inbox <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">99+</span></button>
+        <h3 class="dispaly-4">Button Groups</h3>
+        <div class="btn btn-group" role="group">
+            <button class="btn btn-danger">One</button>
+            <button class="btn btn-warning">Two</button>
+            <button class="btn btn-success">Three</button>
+        </div>
+        <div class="btn-group">
+            <a href="#" class="btn btn-primary active" aria-current="page">Active link</a>
+            <a href="#" class="btn btn-primary">Link</a>
+            <a href="#" class="btn btn-primary">Link</a>
+        </div>
+        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+            <label class="btn btn-outline-primary" for="btnradio1">Radio 1</label>
+
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btnradio2">Radio 2</label>
+
+            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+            <label class="btn btn-outline-primary" for="btnradio3">Radio 3</label>
+        </div>
+        <h2 class="display-4">Typography</h2>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, unde tempore sequi ipsum consequatur, dolorem voluptatem optio ex necessitatibus nisi laudantium tempora nobis ducimus itaque! Qui ipsam provident pariatur cupiditate? Adipisci
             repellat ut voluptatem hic porro incidunt repellendus illum delectus consequuntur voluptate aliquam dicta aperiam nulla fugit et nam sit distinctio aspernatur ad, ullam dolorum eius saepe? Nisi, quas officiis!</p>
+        <figure class="text-end bg-light">
+            <blockquote class="blockquote">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique tempore hic, eum deleniti illum et adipisci, rerum dolor veniam sed, voluptas eos. Optio fugiat veritatis amet natus, culpa quod dolore?
+            </blockquote>
+            <figcaption class="blockquote-footer">Mr. Lorem Ipsum</figcaption>
+
+        </figure>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
