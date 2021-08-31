@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <title>Nav,Forms,Icons</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+    </nav>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#expandme">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="expandme">
+            <div class="navbar-nav">
+                <a href="Home" class="nav-item nav-link">Home</a>
+                <a href="About" class="nav-item nav-link">About</a>
+                <a href="Contact" class="nav-item nav-link">Contact</a>
+            </div>
+
+            <form class="form-inline ml-auto">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="display-2 text-center">
+            Forms
+        </h1>
+        <form action="#nowhere">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="email">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="password">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="addresss">Street Address</label>
+                <input type="text" id="address" class="form-control" placeholder="street address">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-5">
+                    <label for="city">City</label>
+                    <input type="text" id="city" class="form-control" placeholder="city">
+                </div>
+
+                <div class="form-group col-md-3">
+                    <label for="zip">Zip Code</label>
+                    <input type="text" id="zip" class="form-control" placeholder="zip code">
+                </div>
+
+                <div class="form-group col-md-4">
+                    <label for="state">State</label>
+                    <select class="form-control" name="state" id="state">
+                    <option value="UP">Uttar Pradesh</option>
+                    <option value="UK">Uttrakhand</option>
+                </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="tos">
+                    <label class="custom-control-label" for="tos">I accept all agreements!</label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Register</button>
+        </form>
+    </div>
+    <div class="container">
+        <h1 class="display-2 text-info">Icons <svg xmlns="http://www.w3.org/2000/svg" width="0.7em" height="0.7em" fill="currentColor" class="bi bi-music-note-list" viewBox="0 0 16 16">
+            <path d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2z"/>
+            <path fill-rule="evenodd" d="M12 3v10h-1V3h1z"/>
+            <path d="M11 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 16 2.22V4l-5 1V2.82z"/>
+            <path fill-rule="evenodd" d="M0 11.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 7H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 3H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
+          </svg></h1>
+        <button class="btn btn-lg btn-danger">Delete <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
+            <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>
+            <path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>
+          </svg></button>
+        <div class="row">
+            <div class="col-md-5">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                          </svg></div>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Search">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h1 class="display-2 mb-4">Utilities</h1>
+            <div class="row">
+                <div class="col-md-4 border rounded border-primary shadow">
+                    <button class="btn btn-success shadow">Shadow</button> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid optio quis dolor distinctio, et eligendi. Molestiae asperiores omnis sunt nemo sint, non officia architecto possimus
+                    sed cupiditate. Voluptates, nihil corrupti!
+                </div>
+            </div>
+            <div>
+                <div class="button btn btn-primary p-0">Padding 0</div>
+                <div class="button btn btn-primary p-1">Padding 1</div>
+                <div class="button btn btn-primary p-2">Padding 2</div>
+                <div class="button btn btn-primary p-3">Padding 3</div>
+                <div class="button btn btn-primary p-4">Padding 4</div>
+                <div class="button btn btn-primary p-5">Padding 5</div>
+
+            </div>
+            <div class="my-5">
+                <div class="button btn btn-primary p-0 pt-5">Padding Top</div>
+                <div class="button btn btn-primary p-0 pb-5">Padding Bottom</div>
+                <div class="button btn btn-primary p-0 pl-5">Padding Left</div>
+                <div class="button btn btn-primary p-0 pr-5">Padding Right</div>
+                <div class="button btn btn-primary p-0 px-5">Padding X</div>
+                <div class="button btn btn-primary p-0 py-5">Padding Y</div>
+            </div>
+            <button class="btn btn-danger p-0 p-sm-1 p-md-2 p-lg-3 p-xl-4">I Change!</button>
+        </div>
+    </div>
+    <div class="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ipsam minima, libero repudiandae ratione sequi error. Cumque aut, deserunt minima nisi quae veritatis quas nobis consequuntur recusandae expedita pariatur quisquam. Rerum quis voluptatum,
+        aut in vero, repudiandae voluptas aspernatur deleniti alias natus fuga, nisi commodi asperiores. Deserunt, pariatur culpa obcaecati impedit optio earum dolor rerum quibusdam quod cum laudantium amet. Est, voluptatum nisi asperiores commodi optio,
+        mollitia exercitationem esse tempore recusandae ullam culpa enim nesciunt voluptas obcaecati, blanditiis corrupti autem. Dolor dignissimos incidunt ex rerum laudantium necessitatibus officiis! Modi, tenetur? Est ex laborum facere optio aliquid
+        consequuntur necessitatibus magnam voluptate, rem repudiandae vel impedit assumenda, voluptatibus itaque repellat beatae cum consectetur fuga, cumque doloremque quod incidunt! Tenetur quod saepe laborum. Eos corrupti officiis, asperiores doloribus
+        cum culpa. Iusto aspernatur exercitationem reiciendis blanditiis optio beatae. Tempora eos, voluptates atque aliquam maiores incidunt at minima magnam dolores inventore? Sapiente molestiae consequatur fugiat. Ipsa, earum nulla veritatis in ad
+        omnis fugit explicabo quam id ullam pariatur nostrum, vero a officia non doloremque dolore at natus eligendi nobis necessitatibus, ducimus dicta possimus architecto. Hic? Esse dolorum rem consectetur ab id totam inventore laborum. Magni, minus?
+        Ducimus perferendis libero praesentium facere cumque necessitatibus illum odio molestiae hic beatae, asperiores nihil incidunt eaque ipsam labore explicabo? Fugiat sequi temporibus amet harum, laboriosam maiores totam aliquam libero, illum qui
+        numquam doloremque vitae laborum possimus placeat fuga. Sed quos unde impedit quam vel ratione deserunt tempore odit dolor! Necessitatibus et ut debitis saepe, quaerat in dicta neque. Omnis aliquam illum et laboriosam dolorum, nisi facere dolor
+        laborum minima eum iure fuga voluptas dicta! Ad soluta sit iusto modi. Beatae at est nisi veniam architecto voluptate voluptatum repellendus tenetur voluptates praesentium, perspiciatis autem nobis laudantium deserunt magni obcaecati corrupti
+        in molestiae dolorem minima vero. Ipsum soluta et consequuntur veniam! Laboriosam incidunt mollitia corrupti fuga possimus, id sint iure maxime velit a ipsam laudantium accusantium. Rerum et illum natus ipsa in, repellat atque temporibus quo tenetur?
+        Repellat dignissimos asperiores perspiciatis? Voluptate sequi earum esse neque, inventore veniam nostrum! Quia veniam adipisci modi ex voluptatum aliquam recusandae, quasi ratione ad ipsam illo error impedit. Exercitationem, eligendi corrupti.
+        Eius animi tempora voluptatibus? Autem ipsam asperiores ratione error corporis modi odit cum corrupti eligendi blanditiis, ea, culpa assumenda dicta quis dolores atque! Minima accusamus libero quis tempora debitis mollitia inventore porro, odio
+        laudantium. In quia reiciendis alias? Culpa blanditiis, pariatur tempore, eveniet soluta repudiandae eius at cupiditate laboriosam ex id eligendi ut. Veritatis veniam mollitia reiciendis amet asperiores commodi saepe nobis pariatur. Facilis. Harum
+        deserunt, eaque vel nam eum commodi! Facere ipsa blanditiis deleniti pariatur debitis, inventore quidem delectus velit eius eum repudiandae eaque quos minus aliquid magnam expedita tenetur repellat consectetur? Sint! Accusantium at, perferendis
+        molestiae nihil voluptates porro, assumenda dicta nisi alias obcaecati consectetur magni. Molestiae velit dolore quidem libero harum pariatur nulla repellat quas quasi porro, repellendus eum repudiandae minus. Culpa quam voluptate error aperiam
+        vel inventore, cum fugiat accusantium praesentium corrupti quisquam? Sapiente facilis cum voluptas. Cumque, nihil sequi tenetur aliquam expedita ad maiores quis, reiciendis consequatur dolore ipsa? Tenetur, placeat eum accusantium, maxime voluptate
+        similique architecto sunt ratione ullam quae aliquid cumque recusandae reprehenderit non itaque laudantium, quas illum ipsa ad soluta ab vitae porro. Deserunt, cupiditate voluptatem! Molestiae, voluptate. Molestias omnis quas minima perferendis,
+        ipsum voluptate suscipit tempora quos! Vitae vel impedit temporibus maiores, natus quia vero cupiditate qui nobis soluta distinctio, amet cum? Nihil, similique minus. Iste, itaque dignissimos accusamus tenetur dolor earum, modi ipsam non adipisci
+        nulla laborum corrupti soluta. Laborum tenetur aliquid voluptatem, maiores temporibus, a eius nihil dignissimos dolorem nesciunt voluptas eum fuga.
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</body>
+
+</html>
