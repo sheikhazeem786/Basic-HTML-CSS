@@ -1,2 +1,2 @@
-# Basic-forms-html
-# Buttons-in-HTML
+# HTML CSS
+# Basic use of HTML CSS JS
